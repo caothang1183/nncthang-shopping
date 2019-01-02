@@ -1,0 +1,40 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 0px !important;
+    border: 0;
+    width: 100%;
+}
+
+.navbar div {
+    font-size: 8px !important;
+    letter-spacing: 0.1px;
+    line-height: 25px;
+    float: left;
+    display: block;
+    color: rgb(51,51,51,0.3);
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+    padding-top: 10px;
+}
+  
+.navbar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+  
+.navbar div:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+  
+.navbar div.active {
+    background: rgb(255, 255, 255);
+    color: rgb(51,51,51);
+}
+

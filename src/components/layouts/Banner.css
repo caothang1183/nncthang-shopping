@@ -1,0 +1,96 @@
+.carousel-status{
+    display : none
+}
+
+.control-arrow {
+    display : none
+}
+
+.thumbs-wrapper {
+    display : none
+}
+
+.carousel .control-dots .dot{
+    background: #000000 !important;
+    border: 1px #ffffff solid;
+    width: 10px;
+    height: 10px;
+}
+
+.carousel {
+    width: 100%;
+    position: relative;
+    max-height: 420px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-search{
+    position: absolute;
+    top: 22px;
+    z-index: 0;
+}
+
+.banner {
+    position: relative;
+}
+
+.input-search{
+    position: absolute;
+    top: 6px;
+    left:-16px;
+    right: 9px;
+    z-index: 0;
+}
+
+input#search {
+    background-image: url(../../icon-search.svg);
+    background-repeat: no-repeat;
+    font-size: 11px;
+    font-weight: initial;
+    border-radius: 10px;
+    margin: 15px 85px 15px 12px;
+    padding-right: 65px;
+}
+
+.item-slide img {
+    height: 100%;
+    position: relative;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    input#search {
+        background-position: 97%;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width: 666px) {
+    input#search {
+        background-position: 98%;
+    }
+}
+
+@media (min-width: 667px) and (max-width: 812px) {
+    input#search {
+        background-position: 98%;
+    }
+}
+
+
+@media (min-width: 812px) and (max-width: 1024px) {
+    input#search {
+        background-position: 98%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1367px) {
+    input#search {
+        background-position: 98%;
+    }
+}
+
+@media only screen and (min-width: 1368px) and (max-width: 1920px) {
+    input#search {
+        background-position: 98%;
+    }
+}

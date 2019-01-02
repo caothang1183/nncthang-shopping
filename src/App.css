@@ -1,0 +1,40 @@
+.App {
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    max-width: 480px;
+    
+}
+
+@media (min-width: 481px) and (max-width: 666px) {
+    max-width: 666px;
+    
+}
+
+@media (min-width: 667px) and (max-width: 767px) {
+    max-width: 767px;
+    
+}
+
+@media (min-width: 768px) and (max-width: 812px) {
+    max-width: 812px;
+    
+}
+
+@media (min-width: 812px) and (max-width: 1024px) {
+    max-width: 1024px;
+    
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    max-width: 1366px;
+}
+
+@media (min-width: 1025px) and (max-width: 1366px) {
+    max-width: 1366px;
+}
+
+@media only screen and (min-width: 1367px) and (max-width: 1920px) {
+    max-width: 1920px;
+}

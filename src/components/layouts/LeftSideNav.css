@@ -1,0 +1,106 @@
+#leftSiteNav {
+    width: 319px;
+}
+
+#leftSiteNav .hide{
+    width: 0;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,255,255);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    text-decoration: none;
+    color: rgb(51,51,51) ;
+}
+
+.closebtn {
+    float: right;
+    padding-right: 11px;
+}
+
+.menuTitle {
+    text-transform: none;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 30px 14px -0 22px;
+    transition: 0.3s;
+}
+
+.parentNav a {
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 21px;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 29px;
+    color:rgb(51,51,51);
+    display: block;
+    transition: 0.3s;
+}
+
+.parentNav a:hover {
+    color:rgb(255,255,255);
+}
+
+.childNav a {
+    text-align: left;
+    padding: 10px 21px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+    color: rgba(51, 51, 51, 0.7);
+    display: block;
+    transition: 0.3s;
+}
+
+.childNav a:hover {
+    color:rgb(255,255,255);
+}
+
+
+.view-more {
+    float: right;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 20px;
+    color: rgba(51, 51, 51, 0.55);
+    border: 1px solid rgb(51,51,51, 0.55);
+    border-radius: 5px;
+    margin: auto;
+    padding: 1px 9px;
+}
+
+.view-more::after {
+    content: "Xem";
+}
+
+.sidenav img {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+}
+
+.tag {
+    padding-left: 11px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

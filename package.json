@@ -1,0 +1,24 @@
+{
+  "name": "shoppinghome",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.1.1",
+    "@material-ui/icons": "^3.0.1",
+    "mongoose": "^5.3.1",
+    "react": "^16.5.2",
+    "react-currency-formatter": "^1.1.0",
+    "react-dom": "^16.5.2",
+    "react-infinite-scroll-component": "^4.2.0",
+    "react-navigation": "^2.17.0",
+    "react-number-format": "^3.6.1",
+    "react-responsive-carousel": "^3.1.42",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
